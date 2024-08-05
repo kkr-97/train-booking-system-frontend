@@ -29,6 +29,7 @@ function AddTrain({ adminToken }) {
         }
       );
       alert("Train added successfully");
+      window.location.reload();
     } catch (err) {
       alert("Error adding train");
     }
